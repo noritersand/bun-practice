@@ -1,15 +1,21 @@
-# quickstart
+# Bun-practice
 
-To install dependencies:
+## 간단 사용법
+
+의존하는 라이브러리 설치:
 
 ```bash
 bun install
 ```
 
-To run:
+번으로 빌드:
 
 ```bash
-bun run index.ts
+bun build --watch index.ts --outdir build
 ```
 
-This project was created using `bun init` in bun v[5:0]u8@5561275e3781. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+혹은 그냥 실행하기:
+
+```bash
+bun run --watch index.ts
+```
